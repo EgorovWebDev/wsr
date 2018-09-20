@@ -1,0 +1,62 @@
+h1, h3, h2 {
+	color: #fff;
+}
+h2, h3 {
+	text-align: center;
+}
+
+.item{
+	background-color: #034569;
+	width: 20%;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.item > img {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
+.room > img {
+	width: 60%;
+}
+.room {
+	text-align: center;
+}
+.block {
+	margin-top: 25px;
+	flex-direction: row;
+	justify-content: space-around;
+	display: flex;
+}
+
+.off {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	position: relative;
+	top: 0;
+	border-radius: 30%;
+}
+
+.on {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	position: relative;
+	top: 0;
+	border-radius: 30%;
+}
+.off > a, .on > a {
+	color: #fff;
+}
